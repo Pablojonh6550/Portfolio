@@ -3,7 +3,7 @@ import './css/services.css';
 
 function Services() {
     return (
-        <p>Services</p>
+        <section id='services'>services</section>
     );
 }
 
