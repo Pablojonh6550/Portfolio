@@ -14,35 +14,47 @@ function Experience() {
                 <div className="experience_frontend">
                     <h3>Frontend Development</h3>
                     <div className="experience_content">
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>HTML</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons"/>
+                            <div>
+                                <h4>HTML</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>CSS</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>CSS</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>JavaScript</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>JavaScript</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>ReactJs</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>ReactJs</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>ReactNative</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>ReactNative</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>Bootstrap</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>Bootstrap</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
                     </div>
                 </div>
@@ -50,35 +62,47 @@ function Experience() {
                 <div className="experience_backend">
                 <h3>Backend Development</h3>
                     <div className="experience_content">
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>PHP</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>PHP</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>Node JS</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>Node JS</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>MongoDB</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>MongoDB</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>MySQL</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>MySQL</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>C</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>C</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
-                        <article className="experience_datails">
-                            <BsPatchCheckFill />
-                            <h4>C++</h4>
-                            <small className="text_light">Experienced</small>
+                        <article className="experience_details">
+                            <BsPatchCheckFill className="experience_details_icons" />
+                            <div>
+                                <h4>C++</h4>
+                                <small className="text_light">Experienced</small>
+                            </div>
                         </article>
                     </div>
                 </div>

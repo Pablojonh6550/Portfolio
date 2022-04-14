@@ -4,7 +4,7 @@ import CV from '../../assets/cv.pdf';
 function Header_components() {
   return (
     <div className='header_components'>
-        <a href={CV} download className='btn'>Download CV</a>
+        <a href={CV} download className='btn' >Download CV</a>
         <a href="#contact" className='btn btn_primary'>Let's Talk</a>
     </div>
   );
