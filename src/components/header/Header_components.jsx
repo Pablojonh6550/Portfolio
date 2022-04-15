@@ -1,11 +1,10 @@
 import React from 'react';
-import CV from '../../assets/cv.pdf';
+import Curriculo from '../../assets/Curriculo_Jonh_Pablo_Vaz.pdf';
 
 function Header_components() {
   return (
     <div className='header_components'>
-        <a href={CV} download className='btn' >Download CV</a>
-        <a href="#contact" className='btn btn_primary'>Let's Talk</a>
+        <a href={Curriculo} download className='btn' >Curriculo</a>
     </div>
   );
 }

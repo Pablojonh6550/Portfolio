@@ -6,8 +6,8 @@ import './css/contact.css'
 function Contact() {
     return (
         <section id='contact'>
-            <h5>Get In Touch</h5>
-            <h2>Contact</h2>
+            <h5>Contate-me</h5>
+            <h2>Contato</h2>
             
             <div className="container contact_container">
                 <div className="contact_options">

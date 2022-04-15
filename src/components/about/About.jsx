@@ -10,8 +10,8 @@ import ME from '../../assets/me-about.jpg';
 function About() {
     return (
         <section id='about'>
-            <h5>Get to Know</h5>
-            <h2>About Me</h2>
+            <h5>Conheça-me</h5>
+            <h2>Sobre mim</h2>
 
             <div className="container about_container">
                 <div className="about_me">
@@ -24,28 +24,29 @@ function About() {
                     <div className="about_cards">
                         <article className='about_card'>
                             <FaAward className='about_icon'/>
-                            <h5>Experience</h5>
-                            <small>3+ Yers Working</small>
+                            <h5>Experiência</h5>
+                            <small>3+ Codando</small>
                         </article>
                         <article className='about_card'>
                             <FiUsers className='about_icon'/>
-                            <h5>Clients</h5>
-                            <small>200+ Worldwide</small>
+                            <h5>Clientes</h5>
+                            <small>2+ Satisfeitos</small>
                         </article>
                         <article className='about_card'>
                             <VscFolderLibrary className='about_icon'/>
-                            <h5>Projects</h5>
-                            <small>80+ Completed</small>
+                            <h5>Projetos</h5>
+                            <small>10+ Completos</small>
                         </article>
                     </div>
 
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A labore eius omnis eum. 
-                        Doloremque labore tempore voluptatem perspiciatis rem quidem fugiat in blanditiis, 
-                        recusandae, nisi odio nemo architecto aspernatur temporibus!
+                        Olá, meu nome é Jonh Pablo amante da tecnologia e jogos no estilo rpg e cartas, 
+                        fui apresentado ao universo do desenvolvimento aos 14 anos, onde conheci Java e me 
+                        apaixonei por todo esse mundo, no qual tudo é possivel. Hoje sigo evoluindo e desbravando 
+                        todo essa mundo da tecnologia.
                     </p>
-                     
-                    <a href="#contact" className='btn btn_primary'>Let's Talk</a>
+                     <br />
+                    <br />
                 </div>
             </div>
         </section>
