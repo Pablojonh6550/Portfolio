@@ -1,6 +1,7 @@
 import React from "react";
 
 import { MdOutlineEmail } from 'react-icons/md';
+import { FiGithub } from 'react-icons/fi';
 import './css/contact.css'
 
 function Contact() {
@@ -15,7 +16,13 @@ function Contact() {
                         <MdOutlineEmail className="contact_option_icon" />
                         <h4>Email</h4>
                         <h5>pablojonh6550@gmail.com</h5>
-                        <a href="mailto:pablojonh6550@gmail.com" target="_blank">Send a message</a>
+                        <a href="mailto:pablojonh6550@gmail.com" target="_blank">Enviar Mensagem</a>
+                    </article>
+                    <article className="contact_option">
+                        <FiGithub className="contact_option_icon" />
+                        <h4>Github</h4>
+                        <h5>Pablojonh_</h5>
+                        <a href="https://github.com/Pablojonh6550" target="_blank">Visitar Perfil</a>
                     </article>
                        
                 </div>

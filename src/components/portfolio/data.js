@@ -12,7 +12,7 @@ export const datas = [
         id: 1,
         image: IMG1,
         title: 'Project1',
-        github_link:'https://github.com/',
+        github_link:'https://github.com/Pablojonh6550/Portfolio',
         demo:'http://dribble.com',
     },
     {
