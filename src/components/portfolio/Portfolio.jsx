@@ -19,7 +19,7 @@ function Portfolio() {
             {
                 datap.map((data) => {
                     return(
-                        <PortfolioCard id={data.id} image={data.image} title={data.title} github={data.github} demo={data.demo} />
+                        <PortfolioCard id={data.id} image={data.image} title={data.title} github={data.github_link} demo={data.demo} />
                    
                     )
             })
