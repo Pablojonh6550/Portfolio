@@ -5,7 +5,7 @@ import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
 
 import './css/about.css';
-import ME from '../../assets/me-about.jpg';
+import MEABOUT from '../../assets/me-about.jpg';
 
 function About() {
     return (
@@ -16,7 +16,7 @@ function About() {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me_image">
-                        <img src={ME} alt="About Image" />
+                        <img src={MEABOUT} alt="About Image" />
                     </div>
                 </div>
 
