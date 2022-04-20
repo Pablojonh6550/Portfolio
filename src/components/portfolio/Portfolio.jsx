@@ -11,7 +11,6 @@ function Portfolio() {
     const datap = datas;
 
     return (
-        <>
         <section id='portfolio'>
             <h5>Meus Trabalhos</h5>
             <h2>Portfolio</h2>
@@ -19,14 +18,13 @@ function Portfolio() {
             {
                 datap.map((data) => {
                     return(
-                        <PortfolioCard id={data.id} image={data.image} title={data.title} github={data.github_link} demo={data.demo} />
+                        <PortfolioCard key={data.id} id={data.id} image={data.image} tittle={data.tittle} github={data.github_link} demo={data.demo} />
                    
                     )
             })
             }     
             </div>
         </section>
-        </>
     );
 }
 
