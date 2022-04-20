@@ -11,8 +11,8 @@ function PortfolioCard({ id, image, tittle, github, demo }) {
             </div>
             <h3>{tittle}</h3>
             <div className="portfolio_item_a">
-                <a href={github} target='_blank' rel='noopener referrer' className="btn">Github</a>
-                <a href={demo} target='_blank' rel='noopener referrer' className="btn btn_primary">Live Demo</a>
+                <a href={github} target='_blank' rel="noopener noreferrer" className="btn">Github</a>
+                <a href={demo} target='_blank' rel="noopener noreferrer" className="btn btn_primary">Live Demo</a>
             </div>
         </article>
     );
